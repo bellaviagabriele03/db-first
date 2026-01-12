@@ -1,0 +1,28 @@
+Auto usate  di un concessionario 
+
+
+id - unsigned int (not null) - autoicrement
+targa - varchar(255) - (not null) primary key - unique
+colore - mediumint - (not null) 
+colori_interni - mediumint - (not null)
+marca - varchar(255) - (not null) 
+modello - varchar(255) - (not null) 
+prezzo_euro - decimal(10,2) - ( max_price: 99.999.999,99 € )
+motore - varchar(255) (null)
+carburante - varchar(255) - (null)
+kilometri - unsigned int (not null)
+descrizione - text (null)
+numero_porte - tinyint (null) max n 255
+posti- tinyint (null) 
+tipo_cambio - varchar(255) 
+numero_marce - tinyint 
+nome_ex_proprietario - varchar(255)
+emissioni - decimal(4,2) 99,99 (null)
+data_immatricolazione - year (null)
+peso_kilogrammi - decimal (8,2) 999999,99 kg 
+lunghezza_metri - decimal (4,2) 99,99 m
+altezza_metri - decimal (4,2) 99,99 m
+larghezza_metri - decimal (4,2) 99,99 m
+cilindrata_cc - decimal (7,2) 99999,99 cc
+potenza_cv -  decimal (7,2) 99999,99 cv
+
